@@ -1,0 +1,56 @@
+{
+  "seed": 2025,
+  "rows": {
+    "inflation_monthly": 60,
+    "commodity_prices_monthly": 360,
+    "gdp_quarterly_province": 20,
+    "gdp_quarterly_regional": 760,
+    "gdp_annual_province": 5,
+    "gdp_annual_regional": 190,
+    "social_indicators": 20
+  },
+  "null_cells": {
+    "inflation_monthly": 12,
+    "commodity_prices_monthly": 90,
+    "gdp_quarterly_province": 5,
+    "gdp_quarterly_regional": 190,
+    "gdp_annual_province": 1,
+    "gdp_annual_regional": 38,
+    "social_indicators": 4
+  },
+  "duplicate_rows": {
+    "inflation_monthly": 0,
+    "commodity_prices_monthly": 0,
+    "gdp_quarterly_province": 0,
+    "gdp_quarterly_regional": 0,
+    "gdp_annual_province": 0,
+    "gdp_annual_regional": 0,
+    "social_indicators": 0
+  },
+  "commodity_yoy_range_pct": {
+    "Bawang Merah": [
+      -27.53,
+      20.38
+    ],
+    "Beras": [
+      1.5,
+      6.17
+    ],
+    "Cabai Merah": [
+      -31.38,
+      42.38
+    ],
+    "Daging Ayam": [
+      -5.89,
+      14.47
+    ],
+    "Minyak Goreng": [
+      -1.27,
+      10.79
+    ],
+    "Telur Ayam": [
+      -9.67,
+      12.82
+    ]
+  }
+}
