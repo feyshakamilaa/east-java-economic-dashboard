@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Ekonomi Jawa Timur</title>
+  <meta name="description" content="Dashboard Ekonomi Jawa Timur — Analisis dan Visualisasi Data Ekonomi Regional. Prototipe akademik dengan data simulasi.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316285c'/%3E%3Cpath d='M9 22V14M16 22V9M23 22v-6' stroke='%23fff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="logo"><i data-lucide="bar-chart-3"></i></div>
+      <div><b>Dashboard Ekonomi Jawa Timur</b><small>Analisis dan Visualisasi Data Ekonomi Regional</small></div>
+    </div>
+    <nav id="nav" aria-label="Navigasi utama">
+      <a href="#overview" data-v="overview"><i data-lucide="layout-dashboard"></i>Ringkasan Ekonomi</a>
+      <a href="#inflation" data-v="inflation"><i data-lucide="line-chart"></i>Inflasi dan Harga Pangan</a>
+      <a href="#regional" data-v="regional"><i data-lucide="building-2"></i>Ekonomi Daerah</a>
+      <a href="#explorer" data-v="explorer"><i data-lucide="database"></i>Eksplorasi Data</a>
+    </nav>
+    <div class="side-note"><b>Hanya Prototipe.</b> Data Dummy.</div>
+  </aside>
+  <div class="page">
+    <header>
+      <button id="menu" aria-label="Buka atau tutup menu navigasi"><i data-lucide="menu"></i></button>
+      <div class="crumb">Dashboard / <b id="crumb"></b></div>
+      <span class="badge">Data Simulasi</span>
+    </header>
+    <main id="view"><noscript><div class="card err"><b>JavaScript diperlukan.</b><br>Aktifkan JavaScript pada browser untuk menampilkan dashboard ini.</div></noscript></main>
+    <footer>
+      <p><b>Prototipe Akademik — Program Studi S1 Sains Data, Telkom University Kampus Surabaya.</b></p>
+      <p>Dashboard ini menggunakan data simulasi untuk keperluan akademik dan tidak merepresentasikan data maupun sistem resmi Bank Indonesia atau Badan Pusat Statistik (BPS).</p>
+      <p>Sumber: Data simulasi akademik yang diolah menggunakan Python.</p>
+    </footer>
+  </div>
+  <script>
+    // Browser memblokir ES modules dan fetch() pada file:// — tampilkan petunjuk yang jelas, bukan halaman kosong.
+    if (location.protocol === 'file:') document.getElementById('view').innerHTML =
+      '<div style="padding:24px;border:1px solid #e3e8ef;border-radius:12px;background:#fff;line-height:1.6"><b>Buka dashboard ini melalui server lokal.</b><br>Di VS Code: klik kanan <code>index.html</code> → <b>Open with Live Server</b> (pasang ekstensi "Live Server" bila belum ada). Membuka file langsung dari folder (file://) diblokir oleh browser.</div>';
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
