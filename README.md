@@ -6,6 +6,12 @@ Dashboard interaktif berbasis web yang dikembangkan sebagai prototipe akademik u
 
 Proyek ini mengimplementasikan kompetensi Sains Data dalam pengolahan data, analisis statistik, analisis deret waktu, serta visualisasi informasi melalui antarmuka yang interaktif dan mudah dipahami.
 
+## Live Dashboard
+
+Akses dashboard melalui tautan berikut:
+
+**https://feyshakamilaa.github.io/east-java-economic-dashboard/**
+
 ## Fitur Utama
 
 - **Ringkasan Ekonomi** — Gambaran umum indikator perekonomian Jawa Timur.
@@ -33,5 +39,3 @@ Dashboard ini merupakan proyek akademik independen dan tidak merepresentasikan d
 ---
 
 © 2026 Feysha Kamila Pracilya. All rights reserved.
-
-Penggunaan, penggandaan, modifikasi, dan distribusi proyek ini memerlukan izin dari pengembang, dengan tetap memperhatikan lisensi komponen pihak ketiga yang digunakan.
