@@ -1,0 +1,26 @@
+file,field,unit,description
+semua,source,teks,Selalu SIMULASI AKADEMIK; bukan angka resmi
+semua,region,teks,Jawa Timur atau pengamatan sintetis yang dikaitkan dengan nama kabupaten dan kota
+inflation_monthly,period,YYYY-MM,Pengamatan bulanan
+inflation_monthly,cpi,indeks,Basis sintetis tetap Desember 2020 = 100 (Indeks Harga Konsumen/IHK)
+inflation_monthly,inflation_mom_pct,persen,IHK dibagi IHK bulan sebelumnya dikurangi satu dikali 100 (inflasi bulanan/MoM)
+inflation_monthly,inflation_yoy_pct,persen,IHK dibagi IHK bulan yang sama tahun lalu dikurangi satu dikali 100 (inflasi tahunan/YoY)
+inflation_monthly,inflation_ytd_pct,persen,IHK dibagi IHK Desember tahun sebelumnya dikurangi satu dikali 100 (inflasi sejak awal tahun/YTD)
+semua,year,tahun,Tahun kalender
+PDRB triwulanan,quarter,1-4,Triwulan dalam tahun kalender
+PDRB triwulanan,period,YYYY-Qn,Pengamatan triwulanan (Qn = triwulan ke-n)
+semua PDRB,real_gdp_billion_idr,Rp miliar,PDRB harga konstan sintetis 2020; triwulanan atau tahunan sesuai file
+PDRB triwulanan,growth_qoq_pct,persen,PDRB dibagi PDRB triwulan sebelumnya dikurangi satu dikali 100 (pertumbuhan QoQ)
+semua PDRB,growth_yoy_pct,persen,PDRB dibagi PDRB periode yang sama tahun lalu dikurangi satu dikali 100 (pertumbuhan YoY)
+PDRB tahunan kabupaten/kota,province_gdp_billion_idr,Rp miliar,Jumlah PDRB tahunan 38 kabupaten/kota pada tahun yang sama
+PDRB tahunan kabupaten/kota,share_pct,persen,PDRB tahunan kabupaten/kota dibagi PDRB tahunan provinsi dikali 100 (kontribusi PDRB)
+social_indicators,period,YYYY-MM,Pengangguran Februari atau Agustus; kemiskinan Maret atau September
+social_indicators,indicator,teks,unemployment_rate (tingkat pengangguran) atau poverty_rate (tingkat kemiskinan)
+social_indicators,value_pct,persen,Tingkat pengangguran atau kemiskinan pada populasi acuannya masing-masing
+social_indicators,change_yoy_pp,poin persentase,Tingkat saat ini dikurangi tingkat bulan acuan yang sama tahun lalu
+commodity_prices_monthly,commodity,teks,Nama komoditas pangan (Beras; Cabai Merah; Bawang Merah; Telur Ayam; Daging Ayam; Minyak Goreng)
+commodity_prices_monthly,unit,teks,Satuan harga (Rp/kg atau Rp/liter)
+commodity_prices_monthly,price_idr,Rp,Harga simulasi bulanan tingkat provinsi
+commodity_prices_monthly,price_mom_pct,persen,Harga dibagi harga bulan sebelumnya dikurangi satu dikali 100
+commodity_prices_monthly,price_yoy_pct,persen,Harga dibagi harga bulan yang sama tahun lalu dikurangi satu dikali 100
+commodity_prices_monthly,ma3_price_idr,Rp,Rata-rata bergerak sederhana 3 bulan
